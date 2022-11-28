@@ -1,0 +1,10 @@
+footer {
+background-color: #3da2c4;
+height: 46px;
+}
+/* main{
+    height:  calc( 100vh- 120px + 46px);
+} */
+main{
+    height: calc(100vh - 120px);
+}
