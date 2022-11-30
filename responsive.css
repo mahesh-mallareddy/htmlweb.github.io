@@ -1,0 +1,21 @@
+@media (max-width:930px){
+    div.sreachbar{
+        flex-direction: column;
+        height:66px;
+
+    }
+    .sreachbar input.sreach{
+        width: 36vw;
+    }
+}
+
+@media (max-width){
+div.btn{
+margin: 0 112px 0 0;
+width: 140px;
+}
+.logo img{
+    width: 148px;
+height: 78px;
+}
+}

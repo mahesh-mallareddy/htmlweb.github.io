@@ -7,51 +7,48 @@
 }
 
 .logo img {
-    width: 174px;
-    height: 83px;
+    padding: 0 15px;
+    width: 168px;
+    height: 90px;
 }
 
 .logobuttons {
     background-color: #3da2c4;
     display: flex;
     justify-content: space-between;
-    padding: 0px 80px;
-    height: 80px;
-    ;
 }
 
 div.btn {
     display: flex;
-    margin: 40px 51px;
-    max-width: 321px;
-    width: 133px;
+    align-items: center;
+    max-width: 200px;
+    width: 170px;
+    margin: 0 85px;
 }
 
 div.btn input {
     width: 86px;
     height: 28px;
-    background-color: #44b4da;
-    border-radius: 10px;
+    background-color: #a6e9ff;
+    border-radius: 2px;
     cursor: pointer;
     margin: 0 6px;
 }
 
 div.sreachbar {
     display: flex;
-    justify-content: space-between;
-    padding: 0 100px;
+    align-items: center;
+    justify-content: space-around;
     background-color: #a2daed;
     height: 40px;
 }
 
 .sreachbar label {
-    
-    padding: 12px 0;
     display: flex;
 }
 
-.sreachbar input.sreach{
-    width: 310px;
+.sreachbar input.sreach {
+    width: 30vw;
     border: none;
     height: 23px;
     background-color: #e3f8ff;
@@ -66,22 +63,32 @@ div.sreachbar input.bton {
     background-color: #e3f8ff;
     border-radius: 8px;
     cursor: pointer;
-}
-div.list ul {
-    display: inline-flex;
-    list-style-type: none;
-    margin: 13px 0;
+    border: hidden;
+    letter-spacing: 1.187px
 }
 
-div.list ul li a{
-    margin: 12px;
-text-decoration: none;
-color: #285278;
-font-family: 'Outfit', sans-serif;
-font-size: 16px;
-line-height: 0;
-letter-spacing: 0.0;
-font-weight: bolder;
-font-weight: 900;
-/* display: flex; */
+div.list ul {
+    display: flex;
+    list-style-type: none;
+}
+
+div.list ul li a {
+    margin: 0 7px;
+    text-decoration: none;
+    color: #285278;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    font-weight: 900;
+    /* display: flex; */
+}
+ /* ---------------------------- */
+div.btn input:hover{
+background: #7cbaf0;
+}
+div.sreachbar label input:hover{
+    background: #7cbaf0;
+}
+div.list ul li a:hover{
+    background: #7cbaf0;
 }

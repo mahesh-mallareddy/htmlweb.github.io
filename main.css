@@ -1,6 +1,7 @@
 footer {
 background-color: #3da2c4;
 height: 46px;
+text-align: center;
 }
 /* main{
     height:  calc( 100vh- 120px + 46px);
